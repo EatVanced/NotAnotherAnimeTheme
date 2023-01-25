@@ -31,7 +31,7 @@
   /*
     Main Theme Transparency
   */
-  --theme-transparency: rgba(0, 0, 0, 0.5);
+  --theme-transparency: rgba(0, 0, 0, 0.6);
 
   /*
     Home Icon Image
@@ -78,7 +78,7 @@
     Change the unread server animation.
     Replace it with "none" in order to remove any animations and use the main color instead
   */
-  --unread-server-animation: rainbow;
+  --unread-server-animation: none;
 
   /*
     Video / Screen share buttons
