@@ -143,7 +143,7 @@
     Channel Limit Number Color
   */
   --channel-limit-count-color: var(--channels-default);
-  --channel-limit-background-left: rgba(200, 200, 200, 0.1);
+  --channel-limit-background-left: rgba(200, 200, 200, 0.8);
   --channel-limit-background-right: rgba(200, 200, 200, 0.2);
 
   /*
