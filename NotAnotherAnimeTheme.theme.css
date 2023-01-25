@@ -65,9 +65,9 @@
   /*
     Mention colors
   */
-  --mention-color: rgba(250, 166, 26, 0.05);
-  --mention-sider: rgba(250, 166, 26, 1);
-  --mention-hover-color: rgba(250, 166, 26, 0.08);
+  --mention-color: rgba(160, 32, 240, 0.05);
+  --mention-sider: rgba(160, 32, 240, 1);
+  --mention-hover-color: rgba(160, 32, 240, 0.08);
 
   /*
     Server category hover color
@@ -97,7 +97,7 @@
     Small User Popout
   */
   --small-user-popout-background-image: var(--theme-background-image);
-  --small-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
+  --small-user-popout-background-transparency: rgba(160, 32, 240, 0.6);
   --small-user-popout-background-image-position: center;
 
   /*
