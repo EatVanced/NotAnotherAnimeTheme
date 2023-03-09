@@ -8,12 +8,12 @@
 */
 
 .appMount-2yBXZl {
-  background-image: var(--theme-background-image);
-  background-size: cover;
+  background-image: var(--theme-background-image) !important;
+  background-size: cover !important;
 }
 
 .tutorialContainer-2sGCg9
-  .wrapper-28eC3z
+  .wrapper-2PSQCG
   .childWrapper-1j_1ub
   .homeIcon-FuNwkv {
   visibility: hidden;
@@ -139,7 +139,11 @@
 }
 
 .scrollableContainer-15eg7h {
-  background-color: var(--message-box-transparency);
+  background: none !important;
+}
+
+.scrollableContainer-15eg7h {
+  background-color: var(--message-box-transparency) !important;
 }
 
 .theme-dark .form-3gdLxP:before {
@@ -177,12 +181,12 @@
 }
 
 /* CHAT SCROLLER */
-.auto-2K3UW5::-webkit-scrollbar-track {
+.auto-2TJ1RH::-webkit-scrollbar-track {
   background-color: transparent;
 }
 
 /* SCROLL THUMB */
-.auto-2K3UW5::-webkit-scrollbar-thumb {
+.auto-2TJ1RH::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-color);
 }
 
@@ -412,11 +416,11 @@
 }
 
 /* Info Modal */
-.theme-dark .root-g14mjS {
+.theme-dark .root-1CAIjD {
   box-shadow: none;
 }
 
-.theme-dark .footer-31IekZ {
+.theme-dark .footer-1KGV6y {
   background-color: transparent;
   box-shadow: none;
 }
@@ -449,13 +453,13 @@
 }
 
 /* Channel scroller */
-.thin-31rlnD::-webkit-scrollbar-track {
+.thin-RnSY0a::-webkit-scrollbar-track {
   border-color: transparent;
   background-color: transparent;
   border: transparent;
 }
 
-.thin-31rlnD::-webkit-scrollbar-thumb {
+.thin-RnSY0a::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-color);
 }
 
@@ -911,7 +915,7 @@ html {
   background-color: var(--emoji-menu-background-color);
 }
 
-.tutorialContainer-1pL9QS .wrapper-28eC3z .childWrapper-1j_1ub {
+.tutorialContainer-1pL9QS .childWrapper-1j_1ub {
   background: var(--home-icon-image) !important;
   background-position: var(--home-icon-image-position) !important;
   background-repeat: no-repeat !important;
@@ -919,7 +923,7 @@ html {
 }
 
 .tutorialContainer-1pL9QS
-  .wrapper-28eC3z
+  .wrapper-2PSQCG
   .childWrapper-1j_1ub
   .homeIcon-FuNwkv {
   visibility: hidden;
@@ -1100,5 +1104,34 @@ html {
 
 .member-48YF_l,
 .members-3WRCEx {
+  background-color: transparent;
+}
+
+.scroller-3X7KbA {
+  background: none !important;
+}
+
+.theme-dark .container-1NXEtd {
+  background: none !important;
+}
+
+.container-1zzFcN {
+  background: none !important;
+}
+
+.container-YkUktl {
+  background: none !important;
+}
+
+.chatContent-3KubbW {
+  background: none !important;
+}
+
+.scroller-WSmht3 {
+  background: none !important;
+}
+
+.theme-dark .panel-2ZFCRb {
+  background: none !important;
   background-color: transparent;
 }
